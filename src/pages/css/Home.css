@@ -1,0 +1,23 @@
+
+.animation.animation-layer {
+    @apply h-[1000px]
+}
+
+.animation {
+    @apply block relative z-10
+}
+
+.animation-layer {
+    background-position: bottom center;
+    background-size: auto 1038px;
+    background-repeat: repeat-x;
+    @apply absolute w-full
+}
+
+.animation-layer.parallax {
+    @apply fixed
+}
+
+#artBack {
+    background-image: url('/src/assets/images/background.png') !important;
+}
