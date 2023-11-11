@@ -1,23 +1,57 @@
 
-.animation.animation-layer {
-    @apply h-[1000px]
+.animation, .animation-layer {
+  height: 1000px;
 }
 
 .animation {
-    @apply block relative z-10
+  display: block;
+  position: relative;
+  z-index: 10;
 }
 
 .animation-layer {
-    background-position: bottom center;
-    background-size: auto 1038px;
-    background-repeat: repeat-x;
-    @apply absolute w-full
+  background-position: bottom center;
+  background-size: auto 1038px;
+  background-repeat: repeat-x;
+  width: 100%;
+  position: absolute;
 }
-
 .animation-layer.parallax {
-    @apply fixed
+  position: fixed;
 }
 
 #artBack {
-    background-image: url('/src/assets/images/background.png') !important;
+  background-image: url(/src/assets/images/background.png);
+}
+
+#mountain {
+  background-image: url(/src/assets/images/mountains.png);
+}
+
+#logoLand {
+  background-image: url(/src/assets/images/logo_land.png);
+}
+
+#jungle1 {
+  background-image: url(/src/assets/images/jungle1.png);
+}
+
+#jungle2 {
+  background-image: url(/src/assets/images/jungle2.png);
+}
+
+#jungle3 {
+  background-image: url(/src/assets/images/jungle3.png);
+}
+
+#jungle4 {
+  background-image: url(/src/assets/images/jungle4.png);
+}
+
+#jungle5 {
+  background-image: url(/src/assets/images/jungle5.png);
+}
+
+#manonMountain {
+  background-image: url(/src/assets/images/man_on_mountain.png);
 }

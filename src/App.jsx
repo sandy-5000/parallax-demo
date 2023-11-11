@@ -1,11 +1,11 @@
-import { Route, Routes } from '@solidjs/router'
+import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 
 function App() {
 	return (
 		<Routes>
-			<Route path="/" component={Home} />
-			<Route path="/home" component={Home} />
+			<Route path="/" element={<Home />} />
+			<Route path="/home" element={<Home />} />
 		</Routes>
 	)
 }
